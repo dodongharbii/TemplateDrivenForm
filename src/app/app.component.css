@@ -1,0 +1,89 @@
+.page
+{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.input-box
+{
+    background-color: lightgray;
+    border-radius: 20px;
+    border-style: ridge;
+    width: 400px;
+    display: flex;
+    padding: 20px;
+}
+
+.display-box
+{
+    background-color: lightgray;
+    border-radius: 20px;
+    border-style: groove;
+    width: 400px;
+    padding: 20px;
+}
+
+.display-box h1
+{
+    text-align: center;
+}
+
+.left-container
+{
+    width: 400px;
+}
+
+.form-input
+{
+    width: 100%;
+    height: 30px;
+    padding: 1  px;
+}
+
+.form-pair
+{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.select
+{
+    margin-bottom: 3px;
+}
+
+.warning
+{
+    color: red;
+    font-style: italic;
+}
+
+hr
+{
+    height: 2px;
+    background-color: rgb(99, 96, 96);
+    border: none;
+}
+
+.btn
+{
+    margin-bottom: 10px;
+    background-color: rgb(24, 91, 179);
+    font-size: 15px;
+    font-weight: lighter;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.textarea
+{
+    height: 40px;
+    resize: none;
+}
+
+input.ng-invalid.ng-touched, select.ng-invalid.ng-touched
+{
+    border: 2px solid red;
+    border-style: dashed;
+}
